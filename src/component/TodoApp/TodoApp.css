@@ -1,0 +1,80 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+    background-color: #056679;
+}
+
+.todoapp-container{
+    width: 350px;
+    margin: auto;
+    margin-top: 100PX;
+    text-align: center;
+    border-radius: 15px;
+}
+.input-section{
+    background-color: #055565;
+    padding: 18px;
+    border-radius:10px;
+    box-shadow: 0 4px 6px #000000;
+}
+.todoapp-container h1{
+    color: #08869e;
+    margin: 0;
+    margin-bottom: 15px;
+}
+
+.input-section input{
+    border: 2px solid #056e83;
+    color: #08869e;
+    border-radius: 5px;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: #055565;
+    outline: none;
+}
+
+.input-section input::placeholder{
+    color: #08869e;
+}
+
+ul{
+    text-align: left;
+    padding: 0;
+    list-style: none;
+}
+
+ul li{
+    padding: 15px;
+    background-color: #055565;
+    color: #08869e;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    box-shadow: 0 4px 6px #000000;
+    display: flex;
+    position: relative;
+}
+
+ul li div{
+    text-align: right;    
+    flex: 1;
+}
+ul li i{
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+ul input{
+    /* position: absolute; */
+    /* padding: 15px; */
+    width: 100%;
+    box-sizing: border-box;
+    background-color: #055565;
+    color: #08869e;
+    border: 2px solid #055565;
+    border-radius: 5px;
+    /* margin-bottom: 10px; */
+    /* margin: -15px 0px 10px -15px; */
+    /* box-shadow: 0 4px 6px #000000; */
+    outline: none;
+}
