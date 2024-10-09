@@ -1,0 +1,28 @@
+.about-container{
+    margin: 30px 120px;
+    line-height: 20px;
+}
+.about-header{
+    /* text-align: center; */
+    margin-top: 110px ;
+}
+.about-container span{
+    text-decoration: underline;
+    font-weight: 500;
+}
+
+@media (max-width:768px) {
+    .about-container {
+        margin: 20px 60px;
+        line-height: 20px;
+        font-size: medium;
+    }
+}
+
+@media (max-width:425px) {
+    .about-container {
+        margin: 20px 15px;
+        line-height: 16px;
+        font-size: small;
+    }
+}

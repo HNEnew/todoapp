@@ -1,0 +1,37 @@
+
+.hamburger{
+    width: 1.6rem;
+    height: 1.5rem;
+    /* display: flex; */
+    justify-content: space-around;
+    flex-flow: column nowrap;
+    z-index: 10;
+}
+.burger{
+    background-color: rgb(5, 141, 146);
+    width: 1.6rem;
+    height: 0.25rem;
+    border-radius: 10px;
+    transform-origin: 1px;
+    transition: all 0.3s linear;
+}
+.active_b1{
+    transform: rotate(40deg);
+}
+.inactive_b1{
+    transform: rotate(0);
+}
+.active_b2{
+    /* translate: 100%; */
+    opacity: 0;
+}
+.inactive_b2{
+    translate: 0;
+    opacity: 1;
+}
+.active_b3{
+    transform: rotate(-40deg);
+}
+.inactive_b3{
+    transform: rotate(0);
+}
