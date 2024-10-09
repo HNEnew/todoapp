@@ -29,6 +29,9 @@ export default function Header(props) {
                     <Link to="/about" className='hover-link' onClick={toggleHamburger}>About
                         <span className='tooltip'>About</span>
                     </Link>
+                    <Link to="/contact" className='hover-link' onClick={toggleHamburger}>Contact
+                        <span className='tooltip'>Contact</span>
+                    </Link>
                 </div>
 
                 {userData.username === 'Login' ? (

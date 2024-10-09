@@ -4,6 +4,7 @@ import About from "./component/About/About";
 import Header from "./component/Header/Header";
 import TodoApp from "./component/TodoApp/TodoApp";
 import Login from "./component/Login/Login";
+import Contact from "./component/Contact/Contact";
 
 
 function App() {
@@ -69,7 +70,7 @@ function App() {
       <Routes>
         <Route path="/" element={<TodoApp userData={userData} getList={getList} setLoginForm={setLoginForm} />} />
         <Route path="/about" Component={About} />
-        {/* <Route path="/login" Component={Login} /> */}
+        <Route path="/contact" Component={Contact} />
       </Routes>
     </Router >
 
