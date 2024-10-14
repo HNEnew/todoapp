@@ -20,7 +20,7 @@ export default function Login(props) {
     })
   }
 
-  const API_URL = "http://localhost:5050/"
+  const API_URL = "http://54.206.13.36:5050/"
 
   const handleSignup = async (event) => {
     event.preventDefault()

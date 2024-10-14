@@ -16,7 +16,7 @@ export default class TodoApp extends PureComponent {
     componentDidMount() {
         this.props.getList()
     }
-    API_URL = "http://localhost:5050/"
+    API_URL = "http://54.206.13.36:5050/"
 
     componentDidUpdate(prevProps) {
         if (prevProps.userData.list !== this.props.userData.list) {

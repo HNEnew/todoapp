@@ -13,7 +13,7 @@ export default class List extends PureComponent {
         return (
 
             <ul>
-                {list.map((item, index) => {
+                git {list.map((item, index) => {
                     return (
                         <div key={index}>
                             <li>

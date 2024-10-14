@@ -5,7 +5,7 @@ import Header from "./component/Header/Header";
 import TodoApp from "./component/TodoApp/TodoApp";
 import Login from "./component/Login/Login";
 import Contact from "./component/Contact/Contact";
-
+// require('dotenv').config()
 
 function App() {
 
@@ -13,7 +13,11 @@ function App() {
   const [userData, setUserData] = useState({
     list: ['Login to TodoApp and Get started...'], username: 'Login'
   })
-  const API_URL = "http://localhost:5050/"
+  const API_URL = "http://54.206.13.36:5050/"
+  // const API_URL = "http://localhost:5050/"
+  // const API_URL = REACT_APP_NODE_ENV === 'production' 
+  // ? "http://domain-or-public-ip/" // Use the domain or IP in production
+  // : "http://localhost:5050/"; // Local for development
 
   function setLoginForm() {
     setStyle({ display: 'flex' })
