@@ -21,6 +21,7 @@ export default function Login(props) {
   }
 
   const API_URL = "http://54.206.13.36:5050/"
+  // const API_URL = "http://localhost:5050/"
 
   const handleSignup = async (event) => {
     event.preventDefault()
@@ -45,6 +46,7 @@ export default function Login(props) {
   const handleLogin = async (event) => {
     event.preventDefault()
     let { repassword, username, ...userdata } = formData
+    if (!userdata.email || !userdata.password ) return alert("email and password required.")
     try {
       const response = await fetch(API_URL + 'api/todoapp/login', {
         method: 'POST',

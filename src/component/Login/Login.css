@@ -87,6 +87,11 @@ form span:hover {
     cursor: pointer;
 }
 
+.errormsg{
+    text-decoration: none;
+    color: #0c7588;
+    display: none;
+}
 @media (max-width:768px) {
     .login-form-container {
         width: 200px;

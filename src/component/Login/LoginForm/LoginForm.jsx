@@ -11,10 +11,10 @@ export default function LoginForm(props) {
             {/* <label htmlFor="username">Username:</label>
             <input type="text" id="username" name="username" onChange={handleChange} value={username} autoComplete='off' required /> */}
 
-            <label >Email:</label>
+            <label >Email : * <p className="errormsg"> required</p></label>
             <input type="email" id="email" name="email" onChange={handleChange} value={email} autoComplete='off' required />
 
-            <label htmlFor="password">Password:</label>
+            <label htmlFor="password">Password : * <p className="errormsg"> required</p></label>
             <input type="password" id="password" name="password" onChange={handleChange} value={password} autoComplete='new-password' required />
 
             <p>Don't have an account ? <span onClick={()=>changeForm('signup')}>Sign up</span></p>
